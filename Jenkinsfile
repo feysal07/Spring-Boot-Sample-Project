@@ -7,5 +7,6 @@ node {
             parallel 'Compilation': {
                 sh "./mvnw clean install -DskipTests"
             }
+        }
     }
 }
